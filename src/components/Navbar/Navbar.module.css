@@ -1,0 +1,26 @@
+.nav {
+    grid-area: n;
+    background-color: burlywood;
+    padding: 20px;
+}
+
+.item a{
+    color: #ffffff;
+    opacity: .6;
+    margin-top: 2px;
+    text-decoration: none;
+}
+
+.item a:hover{
+    opacity: 1;
+}
+
+.item:nth-child(6n){
+    margin-top: 10px;
+    opacity: 1;
+}
+
+.item a.active{
+    color: white;
+    opacity: 1;
+}
